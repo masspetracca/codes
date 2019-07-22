@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\mpetracc\Katalon Studio\KLiME\KLiME.prj" -retry=0 -testSuitePath="Test Suites/Test Suite Firefox v2.03/Test Suite Firefox v2.03  2_RUN" -executionProfile="ChromeExecProfile" -browserType="Firefox"

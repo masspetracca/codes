@@ -1,0 +1,1 @@
+katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\mpetracc\Katalon Studio\Sa2Proj\Sa2Proj.prj" -retry=0 -testSuitePath="Test Suites/Imported from Selenium IDE Scripts/Test Suite" -executionProfile="default" -browserType="Firefox"
