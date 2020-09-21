@@ -14,12 +14,75 @@ console.log(msgtxt+msg);
 var n1 = 2;
 var n2 = 3;
 var sum = n1+n2;
-console.log("Sum#"+sum) 
+console.log("Sum#"+sum); 
 </script>
+
+<script>
+var b1 = true;
+var b2 = true;
+console.log("Bool#"+b1==b2);
+function checkFalsy (z) {
+    if (z) {
+	console.log("Truth value passed"+z);
+    }
+    else {
+	console.log("Falsy value passed"+z);
+    }
+}
+</script>
+
+<script>
+function is_leap_year (year) {
+    if (year % 400 == 0) {
+	console.log("Truth value passed"+year);
+	return true;
+    }
+    else {
+	console.log("Falsy value passed"+year);
+        return false;
+    }
+}
+</script>
+
+<script>
+function day_of_week(day) {
+	switch (day) {
+		case 1: return "Monday";
+		case 2: return  "Tuesday";
+		case 3: return  "Wednesday";
+		default: return "Invalid day of week !";
+	}
+}
+</script>
+
+<script>
+var i = 1;
+while (i <= 10) {
+	console.log(i);
+	i++;
+}
+</script>
+<script>
+for (var i = 1; i <= 10; i++) {
+	if (i >= 6) {
+		break;
+	}
+	console.log(i);
+}
+</script>
+
 
 </head>
 
 <body>
+
+<script>
+var msg;
+msg =20;
+msgtxt="Script in body#";
+alert ("Contiene#"+ msg);
+console.log(msgtxt+msg);
+</script>
 </body>
 
 </html>
